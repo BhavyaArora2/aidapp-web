@@ -1,0 +1,425 @@
+
+@import 'https://fonts.googleapis.com/css?family=Lora:400,400i,700|Raleway:300,600,700,900';/* for raleway,lora font*/
+@import 'https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'; /*Using ionicons by Ionic */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+/*Global Settings*/
+body{
+	font-family: 'Lora', serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #424242;
+	margin-bottom: 35px;
+	margin-top: 0;
+}
+h1{
+	font-size: 45px;
+}
+h2{
+	font-size: 32px;
+}
+h3{
+	font-size: 21px;
+}
+p{
+	font-size: 16px;
+	font-style: italic;
+	color: #818181;
+}
+a{
+	transition: all 0.3s ease-in-out;
+}
+section{
+	text-align: center;
+}
+.blockquote p{
+	font-size: 32px;
+	line-height: 45px;
+	padding-left: 30px;
+	border-left: 3px solid #424242;
+	color: #424242;
+}
+
+.title{
+	position: relative;
+	margin-bottom: 100px;
+}
+.title:after{
+	content: '';
+	height: 5px;
+	width: 40px;
+	background-color: #62aa94;
+	position: absolute;
+	top: 81px;
+	left: calc(50% - 20px);
+}
+
+/*Bootstrap*/
+.navbar-Aidapp{
+	background: url(../images/icon.png) ;
+	background-color: transparent;
+	margin-bottom: 0;
+	border-radius: 0;
+	border-color: transparent;
+	transition: all 0.3s ease-in-out;
+}
+.form-control option{
+	color: #424242;
+}
+.form-control{
+	border-radius: 0;
+	padding: 25px;
+    font-size: 18px;
+    font-style: italic;
+    background-color: transparent;
+    color: #424242;
+    margin-bottom: 30px;
+	border-color: #51c2b9;
+}
+											/*Don't change anything here   for tranparency and anim*/
+
+
+/*Helper class*/
+.mt80{
+	margin-top: 80px;
+}
+.mb80{
+	margin-bottom: 80px;
+}
+.mr60{
+	margin-right: 60px;
+}
+.bg-img{
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.bg-img div{
+	z-index: 1;
+	position: relative;
+}
+.bg-img:after{
+	position: absolute;
+	content: '';
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	left: 0;
+	top: 0;
+}
+.section{
+	padding: 100px 0;
+}
+.Aidapp-icon{
+	background: url(../images/icon.png) ;
+    width: 187px;
+    height: 68px;
+	display:block;
+}
+
+
+
+
+/*Button*/
+.Aidapp-btn{
+	border-color: #51c2b9;
+	font-style: italic;
+	color: #51c2b9;
+	border-radius: 0;
+	letter-spacing: 3px;
+	padding: 15px 80px;
+	margin-bottom: 30px;
+	background-color: transparent;
+	transition: all 0.3s ease-in-out;
+}
+.Aidapp-btn:hover{
+	background-color: #51c2b9;
+	color: #fff;
+}
+.solid{
+	background-color: #51c2b9;
+	color: #fff;
+}
+.solid:hover{
+	background-color: #fff;
+	color: #51c2b9;
+}
+.small-btn{
+	padding: 10px 130px;
+}
+/* Hamburger menu neechey wala */
+
+/*Element page*/
+.element .navigation-bar{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.element .navigation-bar a{
+	color: #424242;
+}
+.element .dark-bar{
+	background-color: #fff;
+}
+.element .menu:after{
+	color: #424242;
+}
+.element .title:after{
+	left: 0;
+	top: 60px;
+}
+.headings p{
+	margin-bottom: 80px;
+}
+
+
+
+/*Navigation*/
+#menu-item{
+	transition: all 0.3s ease-in-out;
+}
+.menu-item{
+	background-color: #1a1a1a;
+	text-align: center;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.menu-item ul{
+	padding-left: 0;
+	margin-bottom: 0;
+}
+.menu-item ul a li{
+	padding: 15px 0;
+	list-style-type: none;
+	color: #fff;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.menu-item ul a:hover li{
+	color: #51c2b9;
+	text-decoration: none;
+}
+.hide-menu{
+	margin-top: -377px;
+}
+.show-menu{
+	margin-top: 0;
+}
+.dark-bar{
+	background-color: #424242;
+	background-image: none;
+}
+.navigation-bar{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	padding: 15px 0;
+	font-size: 30px;
+}
+.navigation-bar a{
+	color: #fff;
+}
+.menu{
+	position: relative;
+	display: inline-block;
+}
+
+.menu:after{
+	position: absolute;
+	left: -65px;
+	top: 10px;
+	color: #fff;
+	font-size: 16px;
+}
+.m:after{
+	content: 'MENU';
+}
+.c:after{
+	content: 'CLOSE';
+}
+
+
+/*Home page*/
+.header{
+	background-image: url(../images/jum.jpg);
+	height: 100vh;
+	position: relative;
+	min-height: 659px;
+}
+
+.intro-box{
+	height: 100vh;
+	display: table;
+	text-align: center;
+	width: 100%;
+}
+.intro{
+	display: table-cell;
+	vertical-align: middle;
+}
+.header h1{
+	margin: 0;
+}
+.header h1, .header p{
+	color: #fff;
+	letter-spacing: 2px;
+}
+.header p{
+	font-size: 32px;
+	padding-top: 0;
+	padding-bottom: 40px;
+}
+.header .Aidapp-btn{
+	border-color: #fff;
+	color: #fff;
+}
+.header .Aidapp-btn:hover{
+	background-color: #fff;
+	color: #424242;
+}
+
+.Trackr{
+	background-color: #dcf5f7;
+}
+.Trackr img{
+	margin: 30px auto;
+	display: block;
+}
+.Trackr span{
+	font-family: 'Raleway';
+	font-weight: 600;
+}
+
+.expert{
+	background-color: #f8f8f8;
+}
+.expert p{
+	line-height: 200%;
+}
+.expert .bg-img{
+	background-image: url(../images/images.jpg);
+	background-position-x: 85%;
+	height: 100%;
+}
+.expert .bg-img:after{
+	display: none;
+}
+.expert .section{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #007b5e !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+	footer{background:black;color:white;padding:8px 0px 6px 40px;height:50px;font-weight:thin;}
+	.footer1{font-size:thin;}
+footer h1{display:inline;font-family:'Oswald', sans-serif;font-weight:400;font-size:32px;float:left;margin-top:0px;margin-right:10px;font-weight:thin;}
+nav ul{display:inline;padding:0px;float:left;}
+nav ul li{display:inline-block;list-style-type:none;color:white;text-decoration:none;margin-left:12px;float:left;}
+nav ul li a{color:white;text-decoration:none;}
+#nav{font-family: 'Montserrat', sans-serif;}
+
+}
+.right
+{
+	text-align: right;
+	float: right;
+}
+/*animations*/
+.Aidapp-card .Aidapp-card-header .card-icon:after{
+	transition: all 0.3s ease-in-out;
+}
+.Aidapp-card:hover .Aidapp-card-header .card-icon:after{
+	height: 120px;
+	width: 120px;
+	top: -1px;
+	left: -1px;
+}
+.owl-theme .owl-dots .owl-dot span{
+	background-color: #51c2b9;
+	margin: 5px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+	background-color: #51c2b9;
+	height: 14px;
+	width: 14px;
+	margin: 3px;
+}
+
+/* Smooth Scroll and Page bounce too added :D */
+
+@media (max-width: 767px){
+	.Aidapp-card{
+		margin-bottom: 60px;
+	}
+}
