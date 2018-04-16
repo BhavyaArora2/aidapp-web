@@ -1,0 +1,100 @@
+@import 'https://fonts.googleapis.com/css?family=Lora:400,400i,700|Raleway:300,600,700,900';/* for raleway,lora font*/
+@import 'https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'; /*Using ionicons by Ionic */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,700');
+/*Global Settings*/
+body{
+	font-family: 'Quicksand', serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #424242;
+	margin-bottom: 35px;
+	margin-top: 0;
+}
+h1{
+	font-size: 45px;
+}
+h2{
+	font-size: 32px;
+}
+h3{
+	font-size: 21px;
+}
+p{
+	font-size: 16px;
+	font-style: italic;
+	color: #818181;
+}
+a{
+	transition: all 0.3s ease-in-out;
+}
+section{
+	text-align: center;
+}
+.blockquote p{
+	font-size: 32px;
+	line-height: 45px;
+	padding-left: 30px;
+	border-left: 3px solid #424242;
+	color: #424242;
+}
+
+.title{
+	position: relative;
+	margin-bottom: 100px;
+}
+.title:after{
+	content: '';
+	height: 5px;
+	width: 40px;
+	background-color: #62aa94;
+	position: absolute;
+	top: 81px;
+	left: calc(50% - 20px);
+}
+
+/*Bootstrap*/
+.navbar-Aidapp{
+		background-color: white;
+	margin-bottom: 0;
+	border-radius: 0;
+	border-color: white;
+	transition: all 0.3s ease-in-out;
+}
+.form-control option{
+	color: #424242;
+}
+.form-control{
+	border-radius: 0;
+	padding: 25px;
+    font-size: 18px;
+    font-style: italic;
+    background-color: white;
+    color: #424242;
+    margin-bottom: 30px;
+	border-color: white;
+}
+
+
+
+
+
+
+
+
+
+.img-responsive{
+    width: 150px;
+    margin-top:1em;
+    height: 170px;
+	display:block;
+  margin-bottom: 0px;
+}
+
+.tracker{width: 400px;
+    height: 300px;
+	margin-bottom: 3em;}

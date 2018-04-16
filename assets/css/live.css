@@ -4,17 +4,25 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,700');
-/*Global Settings*/
 
 
 
-.img-responsive{
-max-width:200px ;max-height:250px;
+
+.heading{text-align: center;font-family: 'Quicksand', sans-serif;}
+.img{align:middle;width:600px;height:600px;position:absolute;margin-left:25em;}
+.image{align:center;position:absolute;}
+
+
+
+.subset
+{
+  position:absolute;
+  top: -90px;
+  left: 25px;
+  
+  z-index: 5;
 }
-
-.tracker{max-width:200px ;max-height:200px}
-
-.website{  position:relative;width:1000px; height:1000px;float:right;}
-
-  .texto{font-family: 'Quicksand', sans-serif;float:left;}
-.store{margin-top: 1em;}
+.trr{align:center;  position:absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;position:absolute;align:middle;width:600px;height:600px;position:absolute;margin-left: 13em;}

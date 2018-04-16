@@ -57,8 +57,7 @@ section{
 
 /*Bootstrap*/
 .navbar-Aidapp{
-	background: url(../images/icon.png) ;
-	background-color: transparent;
+		background-color: transparent;
 	margin-bottom: 0;
 	border-radius: 0;
 	border-color: transparent;
@@ -112,7 +111,6 @@ section{
 	padding: 100px 0;
 }
 .Aidapp-icon{
-	background: url(../images/icon.png) ;
     width: 187px;
     height: 68px;
 	display:block;
@@ -237,7 +235,7 @@ section{
 
 /*Home page*/
 .header{
-	background-image: url(../images/jum.jpg);
+	background-color: #fff;
 	height: 100vh;
 	position: relative;
 	min-height: 659px;
