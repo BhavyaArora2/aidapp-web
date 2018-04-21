@@ -14,12 +14,26 @@
 
 
 
-.subset
+.subset1
 {
   position:absolute;
   top: -90px;
   left: 25px;
-  
+  z-index: 5;
+}
+.subset2
+{
+  position:absolute;
+  top: -85px;
+  right: 10px;
+  z-index: 5;
+}
+.subset3
+{
+  position:absolute;
+  top: -70px;
+  left: 30px;
+
   z-index: 5;
 }
 .trr{align:center;  position:absolute;

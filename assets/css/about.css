@@ -4,6 +4,7 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,700');
+
 /*Global Settings*/
 
 
@@ -14,7 +15,7 @@ max-width:200px ;max-height:250px;
 
 .tracker{max-width:200px ;max-height:200px}
 
-.website{  position:relative;width:1000px; height:1000px;float:right;}
-
-  .texto{font-family: 'Quicksand', sans-serif;float:left;}
+.website{  margin:;width:1000px; height:1000px;float:right;margin-top:0em;}
+#content{display: inline;}
+  .texto{font-family: 'Quicksand', sans-serif;}
 .store{margin-top: 1em;}
